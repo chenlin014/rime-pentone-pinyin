@@ -1,5 +1,7 @@
 local sp = require("shuangpin")
-local sp_schema = require("shuangpin_schema")
+local sp_config = require("shuangpin_config")
+
+local sp_schema = sp_config.schema
 
 local T={}
 
