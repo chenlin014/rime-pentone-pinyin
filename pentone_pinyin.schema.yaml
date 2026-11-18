@@ -42,10 +42,11 @@ engine:
   translators:
     - punct_translator
     - reverse_lookup_translator
-    - lua_translator@*shuangpin_translator@translator
+    - lua_translator@*shuangpin_tonal_tran@translator
   filters:
     - simplifier
     - uniquifier
+    - lua_filter@*shuangpin_stroke_filter
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
