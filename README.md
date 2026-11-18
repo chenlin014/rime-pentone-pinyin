@@ -1,2 +1,5 @@
-# rime-pentone-pinyin
-筆調拼音 - 結合筆畫和聲調的双拼輔碼方案
+# 筆調拼音
+
+配方： ℞ **pentone-pinyin**
+
+[Rime](https://rime.im/) 双拼輔碼方案
