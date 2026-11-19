@@ -2,6 +2,9 @@ local sp = require("shuangpin")
 local sp_config = require("shuangpin_config")
 
 local sp_schema = sp_config.schema
+sp_schema.key2onset = sp_schema.key2onset or {}
+sp_schema.sounds2pinyin = sp_schema.sounds2pinyin or {}
+sp_schema.replacements = sp_schema.replacements or {}
 local key2tone = sp_config.key2tone or {}
 
 local T={}

@@ -16,7 +16,13 @@ function M.shuangpin_to_pinyin(key1, key2, schema)
 		end
 	end
 
-	return onset .. final
+	local pinyin = onset .. final
+
+	for _, repl in ipairs(schema.replacements) do
+		pinyin = pinyin:gsub(repl[1], repl[2])
+	end
+
+	return pinyin
 end
 
 function M.decode_shuangpin(code, schema)
