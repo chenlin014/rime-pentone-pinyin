@@ -10,8 +10,7 @@ function T.init(env)
 	local config = env.engine.schema.config
 	local name_space = env.name_space or "translator"
 
-	local schema = Schema(env.engine.schema.schema_id or "")
-	env.tran = Component.Translator(env.engine, schema, name_space, "script_translator")
+	env.tran = Component.ScriptTranslator(env.engine, name_space, "script_translator")
 end
 
 function T.fini(env)

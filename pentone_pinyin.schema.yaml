@@ -8,7 +8,7 @@ schema:
   author:
     - 陳林 <1chen0bryan@gmail.com>
   description: |
-    双拼+筆畫+聲調
+    双拼+筆畫＊聲調
   dependencies:
     - stroke
 
@@ -53,9 +53,12 @@ speller:
   delimiter: " '"
   algebra:
     - derive/^([a-z]+)[0-5]$/$1/ # 省略聲調
+    - derive/^([jqxy])u/$1v/
 
 translator:
   dictionary: terra_pinyin
+  prism: pentone_pinyin
+  spelling_hints: 5
 
 reverse_lookup:
   dictionary: stroke
@@ -69,6 +72,9 @@ punctuator:
 
 key_binder:
   import_preset: default
+  bindings:
+    - { when: has_menu, accept: period, send: period }
+    - { when: has_menu, accept: comma, send: comma }
 
 recognizer:
   patterns:

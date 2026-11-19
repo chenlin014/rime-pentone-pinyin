@@ -12,7 +12,8 @@ function F.func(cands, env)
 
 	for cand in cands:iter() do
 		local text = cand.text
-		local code = input:sub(cand._start+1, cand._end)
+		local code = input:sub(cand._start+1, cand._start+(utf8.len(text)*3))
+		--yield(Candidate("code", cand._start, cand._end, code, " "))
 
 		local char_count = 0
 		for _, c in utf8.codes(text) do
