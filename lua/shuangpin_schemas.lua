@@ -46,40 +46,18 @@ M.ziran.keys2pinyin = {
 }
 
 M.ziran.sounds2pinyin = {
-	["g"] = {
-		["ia"] = "gua", ["ing"] = "guai",
-		["o"] = "guo", ["iang"] = "guang"
-	},
-	["k"] = {
-		["ia"] = "kua", ["ing"] = "kuai",
-		["o"] = "kuo", ["iang"] = "kuang"
-	},
-	["h"] = {
-		["ia"] = "hua", ["ing"] = "huai",
-		["o"] = "huo", ["iang"] = "huang"
-	},
-	["zh"] = {
-		["ia"] = "zhua", ["ing"] = "zhuai",
-		["o"] = "zhuo", ["iang"] = "zhuang"
-	},
-	["ch"] = {
-		["ia"] = "chua", ["ing"] = "chuai", ["o"] = "chuo",
-		["iang"] = "chuang", ["ia"] = "shua"
-	},
-	["sh"] = {["ing"] = "shuai", ["o"] = "shuo", ["iang"] = "shuang"},
-	["r"] = {["ia"] = "rua", ["o"] = "ruo"},
-	["j"] = {["ong"] = "jiong", ["ui"] = "jv"},
-	["q"] = {["ong"] = "qiong", ["ui"] = "qv"},
-	["x"] = {["ong"] = "xiong", ["ui"] = "xv"},
-	["d"] = {["o"] = "duo"},
-	["t"] = {["o"] = "tuo"},
-	["n"] = {["ue"] = "nve", ["o"] = "nuo", ["ui"] = "nv"},
-	["l"] = { ["ue"] = "lve", ["o"] = "luo", ["ui"] = "lv"},
-	["z"] = {["ia"] = "zua", ["o"] = "zuo"},
-	["c"] = {["ia"] = "cua", ["o"] = "cuo"},
-	["s"] = {["ia"] = "sua", ["o"] = "suo"},
 	["a"] = {["ang"] = "ang"},
 	["e"] = {["eng"] = "eng"}
+}
+
+M.ziran.replacements = {
+	{"([gkhrzcs])ia$", "%1ua"},
+	{"([nl])ue$", "%1ve"},
+	{"([gkhrzcs])ing$", "%1uai"},
+	{"([dtnlgkhrzcs])o$", "%1uo"},
+	{"([jqx])ong$", "%1iong"},
+	{"([gkhrzcs])iang$", "%1uang"},
+	{"^([nljqx])ui$", "%1v"}
 }
 
 return M
