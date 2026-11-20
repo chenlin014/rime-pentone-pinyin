@@ -6,10 +6,10 @@
 
 收錄的双拼方案：
 - 自然碼 | `ziran`
-- 智能ABC | `smart_abc`
+- 智能ABC | `abc`
 - 小鶴 | `xiaohe`
 - 微軟 | `mssp`
-- 拼音加加 | `jiajia`
+- 拼音加加 | `pyjj`
 - 搜狗 | `sougou`
 - 紫光 | `ziguang`
 - 国标 | `guobiao`

@@ -127,16 +127,16 @@ M.mssp.replacements = {
 
 --- 智能ABC ---
 
-M.smart_abc = {}
+M.abc = {}
 
-M.smart_abc.key2onset = {
+M.abc.key2onset = {
 	["e"] = "ch",
 	["a"] = "zh",
 	["v"] = "sh",
 	["o"] = ""
 }
 
-M.smart_abc.key2final = {
+M.abc.key2final = {
 	["q"] = "ei",
 	["w"] = "ian",
 	["e"] = "e",
@@ -165,15 +165,15 @@ M.smart_abc.key2final = {
 	["m"] = "ui"
 }
 
-M.smart_abc.keys2pinyin = {
+M.abc.keys2pinyin = {
 	["o"] = {["r"] = "er"}
 }
 
-M.smart_abc.sounds2pinyin = {
+M.abc.sounds2pinyin = {
 	[""] = {["v"] = "yu"},
 }
 
-M.smart_abc.replacements = {
+M.abc.replacements = {
 	{"([gkhrzcs])iang$", "%1uang"},
 	{"([dtnlgkhrzcs])o$", "%1uo"},
 	{"([jqx])ong$", "%1iong"},
@@ -185,15 +185,15 @@ M.smart_abc.replacements = {
 
 --- 拼音加加 ---
 
-M.jiajia = {}
+M.pyjj = {}
 
-M.jiajia.key2onset = {
+M.pyjj.key2onset = {
 	["u"] = "ch",
 	["i"] = "sh",
 	["v"] = "zh"
 }
 
-M.jiajia.key2final = {
+M.pyjj.key2final = {
 	["q"] = "ing",
 	["w"] = "ei",
 	["e"] = "e",
@@ -222,7 +222,7 @@ M.jiajia.key2final = {
 	["m"] = "ie"
 }
 
-M.jiajia.keys2pinyin = {
+M.pyjj.keys2pinyin = {
 	["a"] = {
 		["a"] = "a", ["n"] = "an",
 		["i"] = "ai", ["o"] = "ao"
@@ -234,13 +234,13 @@ M.jiajia.keys2pinyin = {
 	}
 }
 
-M.jiajia.sounds2pinyin = {
+M.pyjj.sounds2pinyin = {
 	["a"] = {["ang"] = "ang"},
 	["e"] = {["eng"] = "eng"},
 	[""] = {["ui"] = "yu"}
 }
 
-M.jiajia.replacements = {
+M.pyjj.replacements = {
 	{"([jqx])ong$", "%1iong"},
 	{"([dtnlgkhrzcs])o$", "%1uo"},
 	{"([gkhrzcs])iang$", "%1uang"},
