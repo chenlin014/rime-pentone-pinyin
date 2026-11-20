@@ -13,40 +13,40 @@
     <th colspan="10">首筆畫・聲調</th>
   </tr>
   <tr>
-    <td>( Q )<br>⼃ˉ</td>
-    <td>( W )<br>⼃ˊ</td>
+    <td>( Q )<br>⼃˙</td>
+    <td>( W )<br>⼃ˋ</td>
     <td>( E )<br>⼃ˇ</td>
-    <td>( R )<br>⼃ˋ</td>
-    <td>( T )<br>⼃˙</td>
-    <td>( Y )<br>⼂˙</td>
-    <td>( U )<br>⼂ˋ</td>
+    <td>( R )<br>⼃ˊ</td>
+    <td>( T )<br>⼃ˉ</td>
+    <td>( Y )<br>⼂ˉ</td>
+    <td>( U )<br>⼂ˊ</td>
     <td>( I )<br>⼂ˇ</td>
-    <td>( O )<br>⼂ˊ</td>
-    <td>( P )<br>⼂ˉ</td>
+    <td>( O )<br>⼂ˋ</td>
+    <td>( P )<br>⼂˙</td>
   </tr>
   <tr>
-    <td>( A )<br>⼀ˉ</td>
-    <td>( S )<br>⼀ˊ</td>
+    <td>( A )<br>⼀˙</td>
+    <td>( S )<br>⼀ˋ</td>
     <td>( D )<br>⼀ˇ</td>
-    <td>( F )<br>⼀ˋ</td>
-    <td>( G )<br>⼀˙</td>
-    <td>( H )<br>⼁˙</td>
-    <td>( J )<br>⼁ˋ</td>
+    <td>( F )<br>⼀ˊ</td>
+    <td>( G )<br>⼀ˉ</td>
+    <td>( H )<br>⼁ˉ</td>
+    <td>( J )<br>⼁ˊ</td>
     <td>( K )<br>⼁ˇ</td>
-    <td>( L )<br>⼁ˊ</td>
-    <td>( ; )<br>⼁ˉ</td>
+    <td>( L )<br>⼁ˋ</td>
+    <td>( ; )<br>⼁˙</td>
   </tr>
   <tr>
-    <td>( Z )<br>⼄ˉ</td>
-    <td>( X )<br>⼄ˊ</td>
+    <td>( Z )<br>⼄˙</td>
+    <td>( X )<br>⼄ˋ</td>
     <td>( C )<br>⼄ˇ</td>
-    <td>( V )<br>⼄ˋ</td>
-    <td>( B )<br>⼄˙</td>
-    <td>( N )<br>⼄ˉ</td>
-    <td>( M )<br>⼁ˉ</td>
+    <td>( V )<br>⼄ˊ</td>
+    <td>( B )<br>⼄</td>
+    <td>( N )<br>⼄</td>
+    <td>( M )<br>⼁</td>
   </tr>
 </table>
-
+                   
 ## 安裝
 
 [東風破](https://github.com/rime/plum) 安裝口令： `bash rime-install chenlin014/rime-pentone-pinyin:full terra-pinyin stroke`
