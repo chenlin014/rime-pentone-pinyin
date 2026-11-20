@@ -35,7 +35,12 @@ function T.func(input, seg, env)
 		return
 	end
 	for cand in t:iter() do
-		cand.preedit = pinyin
+		if #input % 3 == 0 then
+			cand.preedit = pinyin
+		else
+			local undone_code = input:sub(#input - (#input % 3) + 1, #input)
+			cand.preedit = pinyin.." ("..undone_code..")"
+		end
 		yield(cand)
 	end
 end
