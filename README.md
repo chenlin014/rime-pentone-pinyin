@@ -41,9 +41,9 @@
     <td>( X )<br>⼄ˋ</td>
     <td>( C )<br>⼄ˇ</td>
     <td>( V )<br>⼄ˊ</td>
-    <td>( B )<br>⼄</td>
-    <td>( N )<br>⼄</td>
-    <td>( M )<br>⼁</td>
+    <td>( B )<br>⼄ˉ</td>
+    <td>( N )<br>⼄ˉ</td>
+    <td>( M )<br>⼁˙</td>
   </tr>
 </table>
                    
