@@ -4,9 +4,11 @@
 
 [Rime](https://rime.im/ ) 双拼輔碼方案
 
-## 默認設置
+## 默認配置
 
-双拼方案：自然碼
+配置文件：`lua/shuangpin_config.lua`
+
+双拼方案：`自然碼`
 
 <table>
   <tr>
@@ -51,4 +53,4 @@
 
 [東風破](https://github.com/rime/plum) 安裝口令： `bash rime-install chenlin014/rime-pentone-pinyin:full terra-pinyin stroke`
 
-安裝默認設置： `bash rime-install chenlin014/rime-pentone-pinyin:default_config`
+安裝默認配置： `bash rime-install chenlin014/rime-pentone-pinyin:default_config`
