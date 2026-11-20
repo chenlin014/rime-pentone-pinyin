@@ -2,7 +2,25 @@
 
 配方： ℞ **pentone-pinyin**
 
-[Rime](https://rime.im/ ) 双拼輔碼方案
+[Rime](https://rime.im/) 双拼輔碼方案
+
+收錄的双拼方案：
+- 自然碼 | `ziran`
+- 智能ABC | `smart_abc`
+- 小鶴 | `xiaohe`
+- 微軟 | `mssp`
+- 拼音加加 | `jiajia`
+- 搜狗 | `sougou`
+- 紫光 | `ziguang`
+- 国标 | `guobiao`
+
+以上方案均缺少实测
+
+## 安裝
+
+[東風破](https://github.com/rime/plum) 安裝口令： `bash rime-install chenlin014/rime-pentone-pinyin:full terra-pinyin stroke`
+
+安裝默認配置： `bash rime-install chenlin014/rime-pentone-pinyin:default_config`
 
 ## 默認配置
 
@@ -48,9 +66,3 @@
     <td>( M )<br>⼁˙</td>
   </tr>
 </table>
-                   
-## 安裝
-
-[東風破](https://github.com/rime/plum) 安裝口令： `bash rime-install chenlin014/rime-pentone-pinyin:full terra-pinyin stroke`
-
-安裝默認配置： `bash rime-install chenlin014/rime-pentone-pinyin:default_config`
