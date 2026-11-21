@@ -52,7 +52,19 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    - derive/^([a-z]+)[0-5]$/$1/ # 省略聲調
+    # 兼容万象拼音 (
+    - xform/^([a-z]+)$/$1⑤/
+    - xform/(ā|ē|ī|ō|ū|ǖ)([a-z]*)$/$1$2①/
+    - xform/(á|é|í|ó|ú|ǘ|ń|ḿ)([a-z]*)$/$1$2②/
+    - xform/(ǎ|ě|ǐ|ǒ|ǔ|ǚ|ň)([a-z]*)$/$1$2③/
+    - xform/(à|è|ì|ò|ù|ǜ|ǹ)([a-z]*)$/$1$2④/
+    - xform/m̄([a-z]*)$/m$1①/
+    - xform/m̀([a-z]*)$/m$1④/
+    - xlit/āáǎàēéěèīíǐìōóǒòūúǔùüǖǘǚǜńňǹḿ/aaaaeeeeiiiioooouuuuvvvvvnnnm/
+    - xlit/①②③④⑤/12345/
+    - derive/^ng(\d)/eng$1/
+    # )
+    - derive/^([a-z]+)[0-5]$/$1/ # 允許省略聲調
     - derive/^([jqxy])u/$1v/
 
 translator:
