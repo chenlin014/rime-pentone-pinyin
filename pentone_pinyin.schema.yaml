@@ -43,7 +43,7 @@ engine:
   translators:
     - punct_translator
     - reverse_lookup_translator
-    - lua_translator@*shuangpin_tonal_tran@translator
+    - lua_translator@*pentone_translator@translator
   filters:
     - simplifier
     - uniquifier

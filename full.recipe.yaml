@@ -9,6 +9,5 @@ install_files: >-
   *.yaml
   lua/shuangpin.lua
   lua/shuangpin_schemas.lua
-  lua/shuangpin_stroke_filter.lua
-  lua/shuangpin_tonal_tran.lua
+  lua/pentone_translator.lua
   lua/common/trikey.lua
