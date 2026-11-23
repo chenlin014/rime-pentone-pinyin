@@ -11,3 +11,4 @@ install_files: >-
   lua/shuangpin_schemas.lua
   lua/shuangpin_stroke_filter.lua
   lua/shuangpin_tonal_tran.lua
+  lua/common/trikey.lua
