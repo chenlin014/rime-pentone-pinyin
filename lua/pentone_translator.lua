@@ -113,11 +113,14 @@ function T.func(input, seg, env)
 	local pinyin = join_strings(syllables, " ")
 
 	if not texts then
+		if pinyin ~= "" then
+			yield(Candidate("pinyin", seg.start, seg._end, pinyin, " "))
+		end
 		return
 	end
 
 	for _, text in ipairs(texts) do
-		local cand = Candidate("pentone", seg.start, seg._end, text, "")
+		local cand = Candidate("pentone", seg.start, seg._end, text, " ")
 		if #input % 3 == 0 then
 			cand.preedit = pinyin
 		else

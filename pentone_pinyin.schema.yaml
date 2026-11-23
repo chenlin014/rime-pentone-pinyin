@@ -53,7 +53,7 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    # 兼容万象拼音 (
+    # 兼容标准拼音 (
     - xform/^([a-z]+)$/$1⑤/
     - xform/(ā|ē|ī|ō|ū|ǖ)([a-z]*)$/$1$2①/
     - xform/(á|é|í|ó|ú|ǘ|ń|ḿ)([a-z]*)$/$1$2②/
